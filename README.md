@@ -20,13 +20,21 @@ Your project folder should contain:
 
 article-manager/
 ├── index.php             # Main page to view articles
+
 ├── action.php            # Handles create, update, delete actions
+
 ├── nav.php               # Navigation bar included in pages
+
 ├── db.php                # Database connection (private, not pushed to GitHub)
-├── config.example.php    # Template for db.php with placeholders
+
+├── config.php    # Template for db.php with placeholders
+
 ├── styles.css            # Custom styling
+
 ├── articles.sql          # Database structure and sample data
+
 ├── .gitignore            # Git ignore file
+
 └── README.md             # This file
 
 
@@ -45,7 +53,7 @@ Open **XAMPP Control Panel** → click **Start** for both **Apache** and **MySQL
 3. Import the `articles.sql` file from this repository.
 
 ### 4️⃣ Configure Database
-1. Copy `config.example.php` to `db.php`.  
+1. Copy `config.php` to `db.php`.  
 2. Open `db.php` and replace placeholders with your database credentials:
 
 ```php
