@@ -19,6 +19,7 @@ Built for beginners using **XAMPP** and a simple, responsive **Bootstrap** inter
 Your project folder should contain:
 
 article-manager/
+
 ├── index.php             # Main page to view articles
 
 ├── action.php            # Handles create, update, delete actions
