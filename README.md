@@ -1,4 +1,5 @@
 📝 Article Manager PHP Project
+
 A lightweight PHP & MySQL web application to manage articles with full Create, Read, Update, Delete (CRUD) functionality.
 Built for beginners using XAMPP and a simple, responsive Bootstrap interface.
 
@@ -50,10 +51,12 @@ $host = "localhost";
 $user = "your_db_username";
 $password = "your_db_password";
 $dbname = "articles_db";
+
 5️⃣ Move Project Files
 Copy the project folder into your XAMPP htdocs directory:
 
 C:\xampp\htdocs\article-manager
+
 6️⃣ Run the Project
 Open your browser and go to:
 
