@@ -77,32 +77,6 @@ Open your browser and go to:
 http://localhost/article-manager/
 ```
 
----
-
-git init
-```
-
-4. Add files:
-
-```bash
-git add .
-```
-
-5. Commit changes:
-
-```bash
-git commit -m "Initial commit: Article Manager project"
-```
-
-6. Add GitHub repository as remote:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/article-manager.git
-```
-
-7. Push to GitHub:
-
-```bash
 git branch -M main
 git push -u origin main
 ```
